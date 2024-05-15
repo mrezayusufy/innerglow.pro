@@ -20,7 +20,7 @@ export default function Footer(){
       <div>
         <ul className="flex flex-col gap-3 capitalize">
           {footer.map((item: string) => (
-            <li className="flex items-center gap-1"><ChevronRight /> <Link href={"/"+item} className="hover:underline"> {item.replace('-', ' ')}</Link></li>
+            <li key={item} className="flex items-center gap-1"><ChevronRight /> <Link href={"/"+item} className="hover:underline"> {item.replace('-', ' ')}</Link></li>
           ))}
         </ul>
       </div>

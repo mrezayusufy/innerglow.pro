@@ -35,12 +35,13 @@ const list = [
   },
   {
     id: 2,
-    avatar: "/avatar/abozar.webp",
-    title: "Mr",
-    firstname: "S.Abozar",
-    lastname: "Hussaini",
+    avatar: "/avatar/marzia.webp",
+    title: "Mrs",
+    firstname: "Marzia",
+    lastname: "Mousavi",
     position: "CEO & Co-Founder",
   },
+  
   {
     id:3,
     avatar: "/avatar/reza.webp",
@@ -51,10 +52,10 @@ const list = [
   },
   {
     id: 4,
-    avatar: "/avatar/marzia.webp",
-    title: "Mrs",
-    firstname: "Marzia",
-    lastname: "Mousavi",
+    avatar: "/avatar/abozar.webp",
+    title: "Mr",
+    firstname: "S.Abozar",
+    lastname: "Hussaini",
     position: "COF",
   },
   {
